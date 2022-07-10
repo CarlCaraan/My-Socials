@@ -29,28 +29,20 @@
 
 <body class="d-flex flex-column min-vh-100">
 
-    <!-- Messenger Chat Plugin Code -->
+    <!-- Start Messenger API -->
     <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
     <div id="fb-customer-chat" class="fb-customerchat">
     </div>
-
     <script>
         var chatbox = document.getElementById('fb-customer-chat');
         chatbox.setAttribute("page_id", "105571677920395");
         chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
         window.fbAsyncInit = function () {
             FB.init({
                 xfbml: true,
                 version: 'v14.0'
             });
         };
-
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
@@ -59,7 +51,9 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+    <!-- End Messenger API -->
 
+    <!-- Start Main Content -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4"></div>
@@ -121,14 +115,16 @@
             <div class="col-md-4"></div>
         </div>
     </div>
+    <!-- End Main Content -->
 
+    <!-- Start Footer -->
     <footer class="mt-auto">
         <div class="container">
             <hr class="socket">
             <span class="pb-4 fw-bold">Carl Caraan.</span>
         </div>
-
     </footer>
+    <!-- End Footer -->
 
     <!-- ========= ALL SCRIPTS ========= -->
     <!-- Bootstrap JavaScript Libraries -->
