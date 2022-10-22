@@ -32,14 +32,12 @@ h6 {
   font-family: $font-header;
   color: #444;
 }
-
 .center {
   @include center();
 }
 .socket {
   border-top: 2.1px solid #000;
 }
-
 .custom-btn {
   @include button-shadow();
   padding: 1.5em;
@@ -66,21 +64,16 @@ h6 {
     inset 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
 .stack__container {
-  width: 50vh;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 50%;
+  margin: 10rem auto;
 }
 .animate__moveInLeft {
   animation: moveInLeft 1s ease-out;
 }
-
 .animate__moveInRight {
   animation: moveInRight 1s ease-out;
   animation-fill-mode: backwards;
 }
-
 .animate__moveInBottom {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
@@ -89,7 +82,6 @@ h6 {
   animation: fadeIn 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
-
 .animate__moveInUp {
   animation: moveInUp 1s ease-out;
 }

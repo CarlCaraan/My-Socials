@@ -1,6 +1,10 @@
 /* ========= BOOTSTRAP BREAKPOINTS ========= */
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .stack__container {
+    width: 100% !important;
+    margin: 5rem auto;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -21,8 +25,9 @@
 
 /* // XXL-Large devices (Gaming Laptops, less than 1600px) */
 @media (max-width: 1599.98px) {
-  .custom-card {
-    margin-block: 4rem;
+  .stack__container {
+    width: 70%;
+    margin: 5rem auto;
   }
 }
 
