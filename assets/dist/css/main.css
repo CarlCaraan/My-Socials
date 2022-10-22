@@ -90,6 +90,32 @@ h6 {
           animation-fill-mode: backwards;
 }
 
+.animate__moveInUp {
+  -webkit-animation: moveInUp 0.5s ease-out;
+          animation: moveInUp 0.5s ease-out;
+}
+
+@-webkit-keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 @-webkit-keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -103,7 +129,6 @@ h6 {
     transform: translateX(0);
   }
 }
-
 @keyframes moveInLeft {
   0% {
     opacity: 0;
