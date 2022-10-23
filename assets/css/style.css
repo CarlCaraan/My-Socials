@@ -3,8 +3,7 @@
 @media (max-width: 575.98px) {
   .stack__container {
     width: 100% !important;
-    margin-bottom: 1rem !important;
-    margin-inline: auto;
+    margin: 1rem auto !important;
   }
 }
 
