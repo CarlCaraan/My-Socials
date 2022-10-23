@@ -24,7 +24,7 @@
 @media (max-width: 1399.98px) {
   .stack__container {
     width: 60%;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     margin-inline: auto;
   }
 }
@@ -33,7 +33,7 @@
 @media (max-width: 1599.98px) {
   .stack__container {
     width: 50%;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     margin-inline: auto;
   }
 }
