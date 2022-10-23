@@ -61,8 +61,8 @@ h6 {
 
 .stack__container {
   width: 50%;
-  top: 0;
-  margin-bottom: 12rem;
+  margin-bottom: 20vh;
+  margin-top: 10vh;
   margin-inline: auto;
 }
 

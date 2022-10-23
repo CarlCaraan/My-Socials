@@ -3,7 +3,7 @@
 @media (max-width: 575.98px) {
   .stack__container {
     width: 100% !important;
-    margin: 3rem auto;
+    margin: 3rem auto !important;
   }
 }
 
@@ -21,22 +21,10 @@
 
 /* // X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-  .stack__container {
-    width: 60%;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-inline: auto;
-  }
 }
 
 /* // XXL-Large devices (Gaming Laptops, less than 1600px) */
 @media (max-width: 1599.98px) {
-  .stack__container {
-    width: 50%;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-inline: auto;
-  }
 }
 
 /* // XX-Large devices (larger desktops) */
