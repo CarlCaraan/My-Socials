@@ -3,7 +3,7 @@
 @media (max-width: 575.98px) {
   .stack__container {
     width: 100% !important;
-    margin: 3rem auto !important;
+    margin: 3rem auto;
   }
 }
 
@@ -23,6 +23,7 @@
 @media (max-width: 1399.98px) {
   .stack__container {
     width: 60%;
+    margin-top: 5rem;
     margin-bottom: 5rem;
     margin-inline: auto;
   }
@@ -32,6 +33,7 @@
 @media (max-width: 1599.98px) {
   .stack__container {
     width: 50%;
+    margin-top: 5rem;
     margin-bottom: 5rem;
     margin-inline: auto;
   }
