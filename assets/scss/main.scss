@@ -20,6 +20,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: $body-background;
+
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
 }
 
 /* Global CSS Class */
@@ -65,7 +69,9 @@ h6 {
 }
 .stack__container {
   width: 50%;
-  margin: 10rem auto;
+  top: 0;
+  margin-bottom: 12rem;
+  margin-inline: auto;
 }
 .animate__moveInLeft {
   animation: moveInLeft 1s ease-out;

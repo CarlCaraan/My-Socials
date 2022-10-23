@@ -26,34 +26,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
-
-    <!-- Start Messenger API -->
-    <div id="fb-root"></div>
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-    <script>
-        var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "105571677920395");
-        chatbox.setAttribute("attribution", "biz_inbox");
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v14.0'
-            });
-        };
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <!-- End Messenger API -->
-
+<body>
     <!-- Start Main Content -->
     <div class="container">
+        <!-- Start Messenger API -->
+        <div id="fb-root"></div>
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "105571677920395");
+            chatbox.setAttribute("attribution", "biz_inbox");
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v14.0'
+                });
+            };
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!-- End Messenger API -->
+
         <div class="stack__container">
             <!-- Start Image -->
             <div class="center">
@@ -117,7 +116,7 @@
         </div> <!-- End Stack Container -->
 
         <!-- ========= Start Footer ========= -->
-        <footer class="mt-auto animate__moveInBottom">
+        <footer class="footer animate__moveInBottom">
             <hr class="socket">
             <div class="center">
                 <small class="pb-4 fw-bold">Copyright &copy; 2022 Carl Caraan All Rights Reserved.</small>
