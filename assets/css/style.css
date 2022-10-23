@@ -1,16 +1,14 @@
 /* ========= BOOTSTRAP BREAKPOINTS ========= */
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .stack__container {
-    width: 100% !important;
-    margin-bottom: 10vh !important;
-    margin-top: 5vh !important;
-    margin-inline: auto !important;
-  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .stack__container {
+    margin-top: 50px;
+    width: 100%;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -28,10 +26,7 @@
 /* // XXL-Large devices (Gaming Laptops, less than 1600px) */
 @media (max-width: 1599.98px) {
   .stack__container {
-    width: 50%;
-    margin-bottom: 12vh;
-    margin-top: 6vh;
-    margin-inline: auto;
+    margin-top: 100px;
   }
 }
 

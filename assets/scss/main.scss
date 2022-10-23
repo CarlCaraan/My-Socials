@@ -21,9 +21,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: $body-background;
 
+  display: grid;
+  grid-template-rows: 1fr auto;
+  align-items: start;
   min-height: 100vh;
-  display: flex;
-  align-items: flex-end;
 }
 
 /* Global CSS Class */
@@ -67,10 +68,14 @@ h6 {
     inset 2px 2px 2px rgba(255, 255, 255, 0.075),
     inset 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
+.page__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .stack__container {
+  margin-top: 150px;
   width: 50%;
-  margin-bottom: 20vh;
-  margin-top: 10vh;
   margin-inline: auto;
 }
 .animate__moveInLeft {
