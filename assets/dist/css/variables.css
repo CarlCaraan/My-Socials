@@ -1,1 +1,8 @@
-/*# sourceMappingURL=variables.css.map */
+@font-face {
+  font-family: "Helvetica Now Display", sans-serif;
+  src: url("../fonts/HelveticaNowDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "Helvetica Now Text", sans-serif;
+  src: url("../fonts/HelveticaNowText-Regular.ttf");
+}/*# sourceMappingURL=variables.css.map */
