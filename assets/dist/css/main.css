@@ -5,11 +5,11 @@
 }
 
 @font-face {
-  font-family: "Helvetica Now Display", sans-serif;
+  font-family: "Helvetica Now Display";
   src: url("../fonts/HelveticaNowDisplay-Regular.ttf");
 }
 @font-face {
-  font-family: "Helvetica Now Text", sans-serif;
+  font-family: "Helvetica Now Text";
   src: url("../fonts/HelveticaNowText-Regular.ttf");
 }
 .html,
@@ -43,6 +43,35 @@ h6 {
 
 .socket {
   border-top: 2.1px solid #000;
+}
+
+.img_container {
+  position: relative;
+}
+.img_container:hover .caption {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+.img_container img {
+  border: 5px solid #fff;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.img_container:hover img {
+  filter: blur(3px) brightness(80%);
+  transition: all 0.5s;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  color: #fff;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .custom-btn {
