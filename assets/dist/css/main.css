@@ -47,18 +47,20 @@ h6 {
 
 .img_container {
   position: relative;
+  width: 10rem;
+  margin: 0 auto;
 }
 .img_container:hover .caption {
   opacity: 1;
   transform: translate(-50%, -50%);
 }
-.img_container img {
-  border: 5px solid #fff;
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-}
 .img_container:hover img {
   filter: blur(3px) brightness(80%);
   transition: all 0.5s;
+}
+.img_container img {
+  border: 5px solid #fff;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .caption {
@@ -72,6 +74,8 @@ h6 {
   transition: all 0.5s;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  text-align: center;
+  width: 100%;
 }
 
 .custom-btn {

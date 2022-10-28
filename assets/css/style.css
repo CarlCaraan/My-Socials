@@ -1,6 +1,9 @@
 /* ========= BOOTSTRAP BREAKPOINTS ========= */
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .img_container {
+    width: 7rem;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
