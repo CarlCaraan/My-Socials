@@ -45,25 +45,24 @@ h6 {
   border-top: 2.1px solid #000;
 }
 
-.img_container {
+.img {
   position: relative;
   width: 10rem;
   margin: 0 auto;
 }
-.img_container:hover .caption {
+.img:hover .img__caption {
   opacity: 1;
   transform: translate(-50%, -50%);
 }
-.img_container:hover img {
+.img:hover .img__avatar {
   filter: blur(3px) brightness(80%);
   transition: all 0.5s;
 }
-.img_container img {
+.img__avatar {
   border: 5px solid #fff;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
-
-.caption {
+.img__caption {
   position: absolute;
   top: 50%;
   left: 50%;
